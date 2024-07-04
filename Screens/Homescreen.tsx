@@ -4,7 +4,6 @@ import { useFonts } from 'expo-font';
 import LottieView from 'lottie-react-native';
 import * as Location from 'expo-location';
 import ForecastItem from './ForecastItem';
-import { assets } from '../react-native.config';
 
 const BASE_URL = 'https://api.openweathermap.org/data/2.5';
 const WEATHER_KEY = process.env.EXPO_PUBLIC_OPENWEATHERKEY;
